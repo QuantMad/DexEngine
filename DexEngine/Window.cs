@@ -19,7 +19,7 @@ namespace DexEngine
 
             GL.CullFace(TriangleFace.Back);
             GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
-            GL.ClearColor(Color4.Black);
+            GL.ClearColor(Color4.AliceBlue);
         }
 
         protected override void OnResize(ResizeEventArgs e)
